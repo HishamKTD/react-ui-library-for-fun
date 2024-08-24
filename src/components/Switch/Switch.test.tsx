@@ -1,7 +1,7 @@
-import React from "react";
-import { render } from "@testing-library/react";
+import React from 'react';
+import { render } from '@testing-library/react';
 
-import Switch from "./Switch";
+import Switch from './Switch';
 
 /**
  * These tests verify that the Switch component renders as expected.
@@ -14,8 +14,8 @@ import Switch from "./Switch";
  * responds properly to user input.
  */
 
-describe("Switch", () => {
-    test("renders the Switch component", () => {
-        render(<Switch>Hello world!</Switch>);
-    });
-})
+describe('Switch', () => {
+  test('renders the Switch component', () => {
+    render(<Switch>Hello world!</Switch>);
+  });
+});

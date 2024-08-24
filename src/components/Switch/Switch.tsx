@@ -12,15 +12,23 @@ import { SwitchProps } from './Switch.types';
  */
 
 const Switch = (props: SwitchProps) => {
-
-    const {style, ...rest } = props
+  const { style, ...rest } = props;
 
   return (
-    <label className="echo-blade-ui-switch" htmlFor="toggle-switch" style={style}>
-        <input type="checkbox" className='echo-blade-ui-switch-input' id="toggle-switch" {...rest} />
-        <span className="echo-blade-ui-switch-slider"></span>
+    <label
+      className="echo-blade-ui-switch"
+      htmlFor="toggle-switch"
+      style={style}
+    >
+      <input
+        type="checkbox"
+        className="echo-blade-ui-switch-input"
+        id="toggle-switch"
+        {...rest}
+      />
+      <span className="echo-blade-ui-switch-slider"></span>
     </label>
-  )
-}
+  );
+};
 
-export default Switch
+export default Switch;

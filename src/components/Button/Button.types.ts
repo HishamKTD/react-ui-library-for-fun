@@ -1,5 +1,6 @@
-import { ButtonHTMLAttributes } from "react";
+import { ButtonHTMLAttributes } from 'react';
 
+type Size = 'small' | 'medium' | 'large';
 /**
  * This file defines the props for the Button component.
  *
@@ -31,4 +32,6 @@ import { ButtonHTMLAttributes } from "react";
  * The `ButtonProps` interface is used as the type for the `Button`
  * component's props.
  */
-export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {}
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+  size?: Size;
+}

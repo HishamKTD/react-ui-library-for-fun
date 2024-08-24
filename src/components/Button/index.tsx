@@ -14,5 +14,5 @@
  * know the exact path to each component.
  */
 
-export { default } from "./Button";
-export type { ButtonProps } from "./Button.types";
+export { default } from './Button';
+export type { ButtonProps } from './Button.types';

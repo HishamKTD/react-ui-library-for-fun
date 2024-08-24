@@ -1,7 +1,7 @@
-import React from "react";
-import { render } from "@testing-library/react";
+import React from 'react';
+import { render } from '@testing-library/react';
 
-import Button from "./Button";
+import Button from './Button';
 
 /**
  * This file contains tests for the Button component.
@@ -17,8 +17,8 @@ import Button from "./Button";
  * responds properly to user input.
  */
 
-describe("Button", () => {
-  test("renders the Button component", () => {
+describe('Button', () => {
+  test('renders the Button component', () => {
     render(<Button>Hello world!</Button>);
   });
 });

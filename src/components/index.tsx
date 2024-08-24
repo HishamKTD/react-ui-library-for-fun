@@ -14,16 +14,14 @@
  * know the exact path to each component.
  */
 
-export { default as Button } from "./Button";
-export type { ButtonProps } from "./Button";
-
-
+export { default as Button } from './Button';
+export type { ButtonProps } from './Button';
 
 /**
  * This index file re-exports all the components from this library, so that
  * users can import them from the root of the library, e.g.:
  *
- * 
+ *
  */
-export { default as Switch } from "./Switch";
-export type { SwitchProps } from "./Switch";
+export { default as Switch } from './Switch';
+export type { SwitchProps } from './Switch';

@@ -9,5 +9,5 @@
  * the exact path to the component.
  */
 
-export { default } from "./Switch";
-export type { SwitchProps } from "./Switch.types";
+export { default } from './Switch';
+export type { SwitchProps } from './Switch.types';

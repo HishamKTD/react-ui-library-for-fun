@@ -1,6 +1,6 @@
-import React from "react";
-import "./Button.css";
-import { ButtonProps } from "./Button.types";
+import React from 'react';
+import './Button.css';
+import { ButtonProps } from './Button.types';
 
 /**
  * A reusable Button component that renders a basic button element.
@@ -10,7 +10,16 @@ import { ButtonProps } from "./Button.types";
  */
 
 const Button = (props: ButtonProps) => {
-  return <button {...props} />;
+  const { size, className, ...rest } = props;
+
+  const sizeClass = size ? `echo-blade-ui-button-${size}` : '';
+
+  return (
+    <button
+      className={`echo-blade-ui-button ${sizeClass} ${className}`}
+      {...rest}
+    />
+  );
 };
 
 export default Button;
