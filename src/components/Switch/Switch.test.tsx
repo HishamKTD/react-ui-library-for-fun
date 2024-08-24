@@ -1,13 +1,10 @@
 import React from "react";
 import { render } from "@testing-library/react";
 
-import Button from "./Button";
+import Switch from "./Switch";
 
 /**
- * This file contains tests for the Button component.
- *
- * The Button component is a reusable React component that can be used to
- * render a button element with a label.
+ * These tests verify that the Switch component renders as expected.
  *
  * The first test is a smoke test that makes sure the component renders
  * without crashing when given some minimal props.
@@ -17,8 +14,8 @@ import Button from "./Button";
  * responds properly to user input.
  */
 
-describe("Button", () => {
-  test("renders the Button component", () => {
-    render(<Button>Hello world!</Button>);
-  });
-});
+describe("Switch", () => {
+    test("renders the Switch component", () => {
+        render(<Switch>Hello world!</Switch>);
+    });
+})
